@@ -1,23 +1,21 @@
-# Python
+# env / secrets
+.env
+.env.*
+
+# python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
 
-# Poetry / virtualenv
+# virtualenvs
 .venv/
-.env
+venv/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# OS files
+# mac
 .DS_Store
 
-# Editors / IDEs
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Local data and vector stores
-data/
+# local vector db
+chroma/
