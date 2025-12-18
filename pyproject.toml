@@ -6,7 +6,7 @@ authors = [
     {name = "kevin.li",email = "kevin.li@trendminer.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "^3.12"
 dependencies = [
 ]
 
